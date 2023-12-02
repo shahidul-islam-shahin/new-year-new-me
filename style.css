@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px
+}
+
+p {
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* header-area */
+
+.header-area {
+    background-image: url(imges/top-view-abstract-assortment-with-innovation-elements\ 1.png);
+    background-size: cover;
+    background-position: center;
+    color: #FFf;
+}
+
+.header-title {
+    text-align: right;
+    padding: 216px 0 167px;
+}
+
+.header-title h1 {
+    font-size: 65px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.boxed-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 32px;
+    background-color: #FFf;
+    color: #005FAC;
+    padding: 21px 25px 20px 26px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
+
+/* main */
+
+/* hero-area */
+.hero-title {
+    padding: 140px 0 100px;
+}
+
+
+.hero-img {
+    position: relative;
+    margin-right: 134px;
+}
+
+.hero-img img {
+    z-index: 2;
+}
+
+.hero-img::before {
+    position: absolute;
+    left: 35px;
+    bottom: -1px;
+    width: 500px;
+    height: 500px;
+    content: "";
+    border-radius: 50%;
+    background: #F15B2233;
+    z-index: -1;
+}
+
+.hero-text {
+    width: 416px;
+}
+
+.hero-text h2 {
+    margin-bottom: 24px;
+}
+
+.hero-text p {
+    margin-bottom: 16px;
+}
+
+.hero-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero-text li {
+    display: inline-block;
+    color: #444343;
+    line-height: 28px;
+}
+
+.hero-text i {
+    color: #16D887;
+    margin-right: 8px;
+}
+
+
+/* my-plan-area */
+
+
+.my-plan-text img {
+    margin-bottom: 24px;
+}
+
+.my-plan-text h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.my-plan-area p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+
+/* section-padding */
+
+.section-bg-1 {
+    background-image: url(imges/Rectangle\ 3.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 130px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.section-bg-1::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imges/Rectangle\ 4\ \(3\).png);
+    content: "";
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.section-title {
+    width: 460px;
+    color: #fff;
+    padding: 59px 0 59px 64px;
+}
+
+/* footer-area */
+
+
+.footer-area {
+    background-color: #151414;
+    color: #fff;
+    padding: 130px 0;
+}
+
+.footer-area a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-title {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+
+.footer-future h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-future p {
+    margin-bottom: 24px;
+}
+
+.footer-future a {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.socila-links a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    color: #006AFF;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-right: 10px;
+}
+
+.socila-links a:nth-child(2) {
+    color: #1DA1F2;
+}
+
+.socila-links a:nth-child(3) {
+    color: #FF0000;
+}
+
+.footer-subscribe h4  {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.footer-subscribe input {
+    width: 100%;
+    background-color: transparent;
+    padding: 21px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.footer-boxed-btn {
+    display: inline-block;
+    padding: 20px 36px;
+    background-color: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    color: #FFF;
+}
